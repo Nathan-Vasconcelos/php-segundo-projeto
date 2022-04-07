@@ -1,4 +1,39 @@
+header {
+    background: rgb(230, 151, 230);
+    padding: 10px 0;
+    color: rgb(78, 2, 78);
+}
+
+h1 {
+    margin-left: 400px;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 10px 0;
+}
+
 input {
     display: block;
     margin:10px 0;
+}
+
+.caixa-treinador {
+    position: absolute;
+    left: 200px;
+    top: 90px;
+    width: 940px;
+}
+
+.caixa-cliente {
+    position: absolute;
+    right: 0;
+    top: 90px;
+    width: 50%;
+}
+
+p {
+    font-size: 20px;
+    padding-top: 10px;
 }
