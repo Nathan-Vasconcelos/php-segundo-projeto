@@ -1,5 +1,6 @@
 # php-segundo-projeto
 Segundo projeto em php para praticar php, orientação a objetos, manipulação de arquivos e HTML e CSS. Uma tela de cadastro, onde é cadastrado um treinador e um cliente de uma academia.
+Vídeo da aplicação <a href="https://youtu.be/HbKaWDGzugs" target="_blank">link</a>
 
 ![2022-04-30_21h56_23](https://user-images.githubusercontent.com/97207282/166127936-610027da-852b-49a4-9a5a-a196839420e4.gif)
 
