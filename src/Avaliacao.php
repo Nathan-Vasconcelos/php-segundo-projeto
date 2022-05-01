@@ -26,7 +26,7 @@ class Avaliacao
     public function recuperaImc(): float
     {
         $imc = $this->peso / $this->altura ** 2;
-        return $imc;
+        return number_format($imc, 2);
     }
 
     public function recuperaResultado(): string

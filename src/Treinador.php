@@ -17,4 +17,16 @@ class Treinador extends Pessoa
     {
         return $this->salario;
     }
+
+    public function cadastra(): void
+    {
+        $nomeArquivo = "Treinador\\" . $this->recuperaNome() . ".txt";
+
+        $conteudo = "{$this->recuperaNome()}\n{$this->recuperaCpf()}\n{$this->recuperaPeso()}\n{$this->recuperaAltura()}\n{$this->recuperaSalario()}";
+
+        file_put_contents($nomeArquivo, $conteudo);
+        $nomeTreinador = $this->recuperaNome() . "\n";
+        file_put_contents('treinador\\nome_treinadores.txt', $nomeTreinador, FILE_APPEND);
+    }
+
 }

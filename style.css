@@ -1,6 +1,6 @@
 header {
     background: rgb(230, 151, 230);
-    padding: 10px 0;
+    padding: 15px 0;
     color: rgb(78, 2, 78);
 }
 
@@ -17,23 +17,76 @@ h2 {
 input {
     display: block;
     margin:10px 0;
-}
-
-.caixa-treinador {
-    position: absolute;
-    left: 200px;
-    top: 90px;
-    width: 940px;
-}
-
-.caixa-cliente {
-    position: absolute;
-    right: 0;
-    top: 90px;
-    width: 50%;
+    font-size: 20px;
+    padding: 5px 5px;
+    border-radius: 10px;
 }
 
 p {
     font-size: 20px;
     padding-top: 10px;
+}
+label, select {
+    font-size: 25px;
+}
+
+.botao {
+    background: rgb(78, 2, 78);
+    color: rgb(236, 203, 236);
+}
+
+button {
+    background: rgb(78, 2, 78);
+    border-radius: 10px;
+    margin:10px 22px;
+    padding: 5px 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(236, 203, 236);
+    font-size: 20px;
+}
+
+.botao:hover, button:hover {
+    background: rgb(201, 125, 201);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+input, label {
+    margin-left: 20px;
+}
+
+th {
+    font-weight: bold;
+    padding: 5px 25px;
+    font-size: 18px;
+}
+
+td {
+    padding: 5px 25px;
+    font-size: 18px;
+}
+
+.menu-principal {
+    width: 840px;
+    margin: 50px auto;
+    border: 0 solid black;
+    border-radius: 15px;
+    padding: 50px 0;
+    background: rgb(236, 203, 236);
+}
+
+.opcao-menu {
+    display: block;
+    padding: 15px 150px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(78, 2, 78);
+}
+
+.opcao-menu:hover {
+    color: white;
 }
