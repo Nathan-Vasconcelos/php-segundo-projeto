@@ -5,7 +5,8 @@ Segundo projeto em php para praticar php, orientação a objetos, manipulação 
 
 <h2>Tela de cadastro de treinadores<h2>
  
-![2022-04-30_21h54_59](https://user-images.githubusercontent.com/97207282/166127967-81f0252a-1b96-47f7-8dfa-3f4df5e36618.png)
+![2022-04-30_21h53_47](https://user-images.githubusercontent.com/97207282/166128153-72b0e351-2aaf-4a1f-89d3-105163fc3d38.png)
+
 
 <h2>Tela de cadastro de clientes<h2>
   
